@@ -15,6 +15,8 @@ public class DisplayBinTime : MonoBehaviour
     public GameObject greenBin;
     public GameObject blackBin;
 
+    public Text postCodeOnHomeText;
+
 
     public Text counterText;
 
@@ -51,14 +53,12 @@ public class DisplayBinTime : MonoBehaviour
         }
 
         RecycleFact.text = RecyclingFacts.RecyclingFact;
+        postCodeOnHomeText.text = PostcodeStatic.Postcode;
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+ 
 
-    }
 
 
 

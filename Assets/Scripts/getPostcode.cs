@@ -5,8 +5,9 @@ using UnityEngine.UI;
 
 public class getPostcode : MonoBehaviour
 {
-  public InputField PostcodeInput;
-        public Text text;
+    public InputField PostcodeInput;
+    public Text text;
+
         //public bool alreadyName;
  
         // void Start()
@@ -43,14 +44,15 @@ public class getPostcode : MonoBehaviour
     //     PlayerPrefs.SetString(KeyName, Value);
     // }
 
-    public string GetInputString(string KeyName)
+    public void GetInputString()
     {
         InputField inputField = PostcodeInput.GetComponent<InputField>();
         string value = inputField.text;
-        Debug.Log("test" + value);
+        Debug.Log(value);
         // return PlayerPrefs.GetString(KeyName);
         PlayerPrefs.SetString("Postcode", value);
         PlayerPrefs.Save();
-        return value;
+        PostcodeStatic.Postcode = value;
+
     }
 }
