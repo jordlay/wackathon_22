@@ -18,6 +18,8 @@ public class DisplayBinTime : MonoBehaviour
 
     public Text counterText;
 
+    public Text RecycleFact;
+
     void Start()
     {
         DateTime today = DateTime.Today;
@@ -47,6 +49,8 @@ public class DisplayBinTime : MonoBehaviour
             blackBin.SetActive(false);
             greenBin.SetActive(true);
         }
+
+        RecycleFact.text = RecyclingFacts.RecyclingFact;
 
     }
 
