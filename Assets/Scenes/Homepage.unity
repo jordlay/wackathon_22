@@ -926,7 +926,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 96ce9762541110e45944b0a1158c1324, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d37ff92991da34517915884fda7bd7d1, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1881,9 +1881,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   greenBin: {fileID: 120097144}
   blackBin: {fileID: 1263625290}
+  postCodeOnHomeText: {fileID: 407254261}
   counterText: {fileID: 1410561779}
   RecycleFact: {fileID: 625725119}
-  postCodeOnHomeText: {fileID: 407254261}
 --- !u!1 &1784901960
 GameObject:
   m_ObjectHideFlags: 0
