@@ -42,6 +42,8 @@
      <Compile Include="Assets/Scripts/buttons.cs" />
      <Compile Include="Assets/Scripts/RecyclingFacts.cs" />
      <Compile Include="Assets/Scripts/PostcodeStatic.cs" />
+     <Compile Include="Assets/Scripts/RecycleDatabase.cs" />
+     <Compile Include="Assets/Scripts/CanIRecycle.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
