@@ -24,7 +24,7 @@ public class buttons : MonoBehaviour
     }
     public void RecycleSearchButtonClicked()
     {
-        SceneManager.LoadScene("RecycleSearch");
+        SceneManager.LoadScene("Recycle");
         Debug.Log("RECYABLE");
     }
     public void HelpButtonClicked()
