@@ -47,9 +47,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/Scripts/DisplayBinTime.cs" />
      <Compile Include="Assets/Scripts/ScaleToScreen.cs" />
      <Compile Include="Assets/Scripts/buttons.cs" />
-     <Compile Include="Assets/Scripts/DisplayBinTime.cs" />
+     <Compile Include="Assets/Scripts/RecyclingFacts.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
