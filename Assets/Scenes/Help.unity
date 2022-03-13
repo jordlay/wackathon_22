@@ -286,6 +286,7 @@ GameObject:
   - component: {fileID: 140606720}
   - component: {fileID: 140606719}
   - component: {fileID: 140606718}
+  - component: {fileID: 140606721}
   m_Layer: 0
   m_Name: Button (4)
   m_TagString: Untagged
@@ -356,7 +357,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 140606719}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 140606721}
+        m_TargetAssemblyTypeName: panelOpener, Assembly-CSharp
+        m_MethodName: OpenPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &140606719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -395,6 +408,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 140606716}
   m_CullTransparentMesh: 1
+--- !u!114 &140606721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140606716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961c3a6c84d06964f824a8c615dae85b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Panel: {fileID: 2078729574}
 --- !u!1 &176354521
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,6 +433,7 @@ GameObject:
   - component: {fileID: 176354525}
   - component: {fileID: 176354524}
   - component: {fileID: 176354523}
+  - component: {fileID: 176354526}
   m_Layer: 0
   m_Name: Button (2)
   m_TagString: Untagged
@@ -477,7 +504,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 176354524}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 176354526}
+        m_TargetAssemblyTypeName: panelOpener, Assembly-CSharp
+        m_MethodName: OpenPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &176354524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -516,6 +555,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 176354521}
   m_CullTransparentMesh: 1
+--- !u!114 &176354526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176354521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961c3a6c84d06964f824a8c615dae85b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Panel: {fileID: 1901441717}
 --- !u!1 &209800794
 GameObject:
   m_ObjectHideFlags: 0
@@ -1981,6 +2033,7 @@ GameObject:
   - component: {fileID: 1038638721}
   - component: {fileID: 1038638720}
   - component: {fileID: 1038638719}
+  - component: {fileID: 1038638722}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -2051,7 +2104,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1038638720}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1038638722}
+        m_TargetAssemblyTypeName: panelOpener, Assembly-CSharp
+        m_MethodName: OpenPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1038638720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2090,6 +2155,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1038638717}
   m_CullTransparentMesh: 1
+--- !u!114 &1038638722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038638717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961c3a6c84d06964f824a8c615dae85b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Panel: {fileID: 1901441717}
 --- !u!1 &1090494039
 GameObject:
   m_ObjectHideFlags: 0
@@ -3432,6 +3510,7 @@ GameObject:
   - component: {fileID: 1769213362}
   - component: {fileID: 1769213361}
   - component: {fileID: 1769213360}
+  - component: {fileID: 1769213363}
   m_Layer: 0
   m_Name: Button (7)
   m_TagString: Untagged
@@ -3502,7 +3581,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1769213361}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1769213363}
+        m_TargetAssemblyTypeName: panelOpener, Assembly-CSharp
+        m_MethodName: OpenPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1769213361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3541,6 +3632,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1769213358}
   m_CullTransparentMesh: 1
+--- !u!114 &1769213363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769213358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961c3a6c84d06964f824a8c615dae85b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Panel: {fileID: 2078729574}
 --- !u!1 &1784901960
 GameObject:
   m_ObjectHideFlags: 0
@@ -3709,12 +3813,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1901441718}
   m_Layer: 0
-  m_Name: Banner2
+  m_Name: Request
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1901441718
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3958,12 +4062,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2078729575}
   m_Layer: 0
-  m_Name: Banner1
+  m_Name: Report
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2078729575
 RectTransform:
   m_ObjectHideFlags: 0
