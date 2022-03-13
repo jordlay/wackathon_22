@@ -38,12 +38,13 @@
   <ItemGroup>
      <Compile Include="Assets/Scripts/DisplayBinTime.cs" />
      <Compile Include="Assets/Scripts/ScaleToScreen.cs" />
+     <Compile Include="Assets/Scripts/CanIRecycle.cs" />
      <Compile Include="Assets/Scripts/getPostcode.cs" />
      <Compile Include="Assets/Scripts/buttons.cs" />
      <Compile Include="Assets/Scripts/RecyclingFacts.cs" />
-     <Compile Include="Assets/Scripts/PostcodeStatic.cs" />
      <Compile Include="Assets/Scripts/RecycleDatabase.cs" />
-     <Compile Include="Assets/Scripts/CanIRecycle.cs" />
+     <Compile Include="Assets/Scripts/PostcodeStatic.cs" />
+     <Compile Include="Assets/Scripts/Calendar.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
