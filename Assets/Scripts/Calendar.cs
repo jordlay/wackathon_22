@@ -18,6 +18,10 @@ public class Calendar : MonoBehaviour
     public GameObject[] thursdays;
     public Text[] thursdaysText;
 
+    void Awake() 
+    {
+        DontDestroyOnLoad(this.gameObject);    
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -50,10 +54,12 @@ public class Calendar : MonoBehaviour
             if((i) < startDay || (i) - startDay >= endDay)
             {
                 days[i].text = "";
+                days[i].color = Color.black;
             }
             else
             {
                 days[i].text = ((i+1) - startDay).ToString();
+                days[i].color = Color.black;
             }
         }
         
