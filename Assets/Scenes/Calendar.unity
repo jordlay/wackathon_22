@@ -5895,6 +5895,34 @@ MonoBehaviour:
   - {fileID: 921019366}
   - {fileID: 626936092}
   monthText: {fileID: 1956818962}
+  tuesdays:
+  - {fileID: 524893949}
+  - {fileID: 113480060}
+  - {fileID: 242011190}
+  - {fileID: 1792651978}
+  - {fileID: 1346265920}
+  - {fileID: 2015862618}
+  tuesdaysText:
+  - {fileID: 1247987686}
+  - {fileID: 95987178}
+  - {fileID: 1420867795}
+  - {fileID: 1136364867}
+  - {fileID: 1425003792}
+  - {fileID: 15078737}
+  thursdays:
+  - {fileID: 1034143842}
+  - {fileID: 154499288}
+  - {fileID: 1173051767}
+  - {fileID: 924425523}
+  - {fileID: 1230201789}
+  - {fileID: 111441803}
+  thursdaysText:
+  - {fileID: 2101504068}
+  - {fileID: 1520672012}
+  - {fileID: 1202430754}
+  - {fileID: 4323235}
+  - {fileID: 1425396908}
+  - {fileID: 218388474}
 --- !u!1 &1571383607
 GameObject:
   m_ObjectHideFlags: 0

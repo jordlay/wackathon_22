@@ -12,6 +12,12 @@ public class Calendar : MonoBehaviour
 
     private DateTime currDate;
 
+    public GameObject[] tuesdays;
+    public Text[] tuesdaysText;
+
+    public GameObject[] thursdays;
+    public Text[] thursdaysText;
+
 
     // Start is called before the first frame update
     void Start()
@@ -56,6 +62,20 @@ public class Calendar : MonoBehaviour
         if(DateTime.Now.Year == year && DateTime.Now.Month == month)
         {
             days[(DateTime.Now.Day - 1) + startDay].text = "T";
+            days[(DateTime.Now.Day - 1) + startDay].color = Color.red;
+        }
+
+        for (int i = 0; i < tuesdays.Length; i++)
+        {
+            if (tuesdaysText[i].text == "")
+                tuesdays[i].SetActive(false);
+            else
+                tuesdays[i].SetActive(true);
+
+            if (thursdaysText[i].text == "")
+                thursdays[i].SetActive(false);
+            else
+                thursdays[i].SetActive(true);
         }
 
     }
