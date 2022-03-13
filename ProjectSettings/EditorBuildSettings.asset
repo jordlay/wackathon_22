@@ -17,13 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Recycle.unity
     guid: 735a92066b02f4dbf9b586470c45e435
-  - enabled: 1
-    path: Assets/Scenes/Help.unity
-    guid: 5ea5501d20d624d28b26860f11ea9d55
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Newsfeed.unity
     guid: cfae97370db7d49178731c8ddf8392c8
   - enabled: 1
     path: Assets/Scenes/Calendar.unity
     guid: 8b92728b13ad44c23bc8207487febaf7
+  - enabled: 1
+    path: Assets/Scenes/Help.unity
+    guid: d7f9b9a1c90fd4853880b235cab8dc6d
   m_configObjects: {}
