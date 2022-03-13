@@ -32,22 +32,22 @@ public class Calendar : MonoBehaviour
         currDate = temp;
         string monthDate = temp.ToString("MMMM") + " " + temp.Year.ToString();
         monthText.text = monthDate;
-        int startDay = GetMonthStartDay(year,month)-2;
-        int endDay = GetTotalNumberOfDays(year, month)+1;
+        int startDay = GetMonthStartDay(year,month)-1;
+        int endDay = GetTotalNumberOfDays(year, month);
+
+        if (startDay == -1)
+            startDay = 6;
         
 
         for(int i = 0; i < 42; i++)
         {
-            if(i < startDay || i - startDay >= endDay)
+            if((i) < startDay || (i) - startDay >= endDay)
             {
                 days[i].text = "";
             }
             else
             {
-                if (i - startDay <= 0)
-                    days[i].text = "";
-                else
-                    days[i].text = (i - startDay).ToString();
+                days[i].text = ((i+1) - startDay).ToString();
             }
         }
         
